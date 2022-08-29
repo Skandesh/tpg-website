@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import logo from '../assets/img/logo.svg';
+import logo from '../assets/img/logo.png';
 import telegram from '../assets/img/Telegram_logo.svg';
 import discord from '../assets/img/discord.svg';
 import twitter from '../assets/img/twitter.png';
@@ -56,9 +56,6 @@ export const NavBar = () => {
                 <a href="https://twitter.com/PhoenixGuildHQ"><img src={twitter} alt="link to join our twitter page" /></a>
                 <a href="https://www.youtube.com/channel/UC8-2HndxrRrDjnGNbCAdJBg/"><img src={youtube} alt="link to join our youtube channel" /></a>
               </div>
-              <HashLink to='#connect'>
-                <button className="vvd"><span>Connect Wallet</span></button>
-              </HashLink>
             </span>
           </Navbar.Collapse>
         </Container>

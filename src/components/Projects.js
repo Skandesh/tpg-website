@@ -46,7 +46,7 @@ opportunities for women in web3 in the form of grants, and bounties etc., we hav
 mentorship to the women in the community and have created occasions for cross mentorship within
 the group. We also conduct bootcamps and immersive sessions for various domains (Development,
 Marketing, Operations, Design, Product etc.).</p>
-                <Tab.Container id="projects-tabs" defaultActiveKey="first">
+                <Tab.Container id="projects-tabs" defaultActiveKey="third">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
                       <Nav.Link eventKey="first">Technical</Nav.Link>

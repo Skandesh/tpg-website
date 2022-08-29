@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import logo from "../assets/img/logo.svg";
+import logo from "../assets/img/logo.png";
 import telegram from '../assets/img/Telegram_logo.svg';
 import discord from '../assets/img/discord.svg';
 import twitter from '../assets/img/twitter.png';

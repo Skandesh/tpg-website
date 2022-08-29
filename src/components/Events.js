@@ -57,7 +57,7 @@ leadership roles in WEB3.</p>
                 </div>
             </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+       
     </section>
   )
 }

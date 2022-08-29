@@ -42,11 +42,16 @@ h1, h2, h3, h4, h5, h6 {
   line-height: normal;
 }
 
-p, a, li, button, ul {
+p, li, button, ul {
   margin: 0;
   padding: 0;
   line-height: normal;
   text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: #928888;
 }
 
 a:hover {
@@ -84,15 +89,16 @@ p.danger {
 /************ Navbar Css ************/
 nav.navbar {
   padding: 18px 0;
-  position: fixed;
+  position:fixed;
   width: 100%;
-  top: 0;
+  top: 5;
   z-index: 9999;
   transition:  0.32s ease-in-out;
 }
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #121212;
+  height: 11%;
+  background-color: #88267e;
 }
 nav.navbar a.navbar-brand {
     width: 9%;
@@ -111,6 +117,7 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
 }
 span.navbar-text {
     display: flex;
+   
     align-items: center;
 }
 .social-icon {
@@ -234,24 +241,23 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/banner-bg.png');
+  background-color: #AA367C;
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .banner .tagline {
-  font-weight: 1400;
+  font-weight: 1000;
   letter-spacing: 0.8px;
   padding: 8px 10px;
-  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
-  border: 5px solid rgba(255, 255, 255, 0.5);
-  font-size: 60px;
+  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(127, 17, 127, 0.5) 111.58%);
+  font-size: 50px;
   margin-bottom: 16px;
   display: inline-block;
 }
 .banner h1 {
-  font-size: 65px;
-  font-weight: 700;
+  font-size: 55px;
+  font-weight: 500;
   letter-spacing: 0.8px;
   line-height: 1;
   margin-bottom: 20px;
@@ -304,9 +310,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .event {
   padding: 0 0 50px 0;
   position: relative;
+  background-color: #AA367C;
 }
 .event-bx {
-  background: #161616;
+  background: #a12770;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
@@ -334,6 +341,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .background-image-left {
   top: 28%;
+  background-color: #31624a;
   position: absolute;
   bottom: 0;
   width: 40%;
@@ -344,7 +352,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: black;
+  background-color: #AA367C;
 }
 .project h2 {
 	font-size: 45px;
@@ -541,7 +549,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Footer Css ************/
 .footer {
   padding: 0 0 50px 0;
-  background-image: url('./assets/img/footer-bg.png');
+  background-color: #AA367C;
+  
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
